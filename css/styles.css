@@ -1,0 +1,149 @@
+body {
+  background-color: #1B191C;
+  color: #c8c8c8;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  padding: 20px 0px 0px 0px;
+  line-height: 1.45em;
+  font-size: 16pt;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 50pt;
+  color: #b6ab4f;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 26pt;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  width: 85%;
+  color: #656866;
+}
+
+h4 {
+  font-family: sans-serif;
+  color: #656866;
+}
+
+cite {
+  font-size: 1.5em;
+}
+
+hr {
+  margin-bottom: 40px;
+}
+
+.imgdiv {
+  margin-top: 40px;
+  width: 50%;
+}
+img {
+  width: 100%;
+}
+@media screen and (min-width: 1024px){
+  body {
+    background: #f0f7ff;
+  }
+  .container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 95pt;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+    color: #0087ff;
+  }
+  h2 {
+    text-align: center;
+  }
+  article {
+    column-count: 2;
+    column-gap: 20px;
+    text-align: justify;
+    color: #0087ff;
+  }
+  p {
+    font-family: times, serif;
+  }
+  .imgdiv {
+    width: 95%;
+    float: left;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  body {
+    background: #f3eee6;
+  }
+  h1 {
+    color: #807731;
+  }
+  cite {
+    color: #807731;
+    font-family: 'Rubik', sans-serif;
+  }
+  p {
+    font-family: consolas, monospace;
+    color: #676662;
+  }
+  .imgdiv {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    color: #807731;
+  }
+  .container {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  body{
+    background-color: #224a12;
+  }
+  p {
+    color: #fff3e0;
+    font-size: 14pt;
+  }
+  h1 {
+    color: #ef95de;
+    text-transform: uppercase;
+    line-height: 55px;
+  }
+  h2 {
+    color: #fff3e0;
+    font-size: 18px;
+  }
+  h4 {
+    color: #ef95de;
+  }
+  cite {
+    color: #ef95de;
+  }
+  .container {
+    width: 85%;
+  }
+  .imgdiv{
+    width: 100%;
+    color: #fff3e0;
+  }
+  p {
+    font-family: 'Rubik', sans-serif;
+  }
+}
